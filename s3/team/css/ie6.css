@@ -1,0 +1,5 @@
+﻿.thumbs div {margin:20px 8px 0 8px;}
+.play {background:url(/team/images/play.gif) no-repeat;}
+@media (max-width: 800px) {
+.play {background:url(/team/images/play2.gif) no-repeat;}
+}

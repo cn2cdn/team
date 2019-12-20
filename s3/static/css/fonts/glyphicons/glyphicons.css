@@ -1,0 +1,40 @@
+@font-face {
+    font-family:'Glyphicons Halflings';
+    src:url('./glyphicons-halflings-regular.eot');
+    src:url('./glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('./glyphicons-halflings-regular.woff') format('woff'),
+    url('./glyphicons-halflings-regular.ttf') format('truetype'),
+    url('./glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.glyphicon {
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: center;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.glyphicon-heart:before { content: "\e005"; }
+.glyphicon-send:before { content: "\e171"; }
+.glyphicon-save:before { content: "\e166"; }
+.glyphicon-eye-open:before { content: "\e105"; }
+.glyphicon-list-alt:before { content: "\e032"; }
+.glyphicon-plus:before { content: "\002b"; margin-left: 1px; }
+.glyphicon-fire:before { content: "\e104"; }
+.glyphicon-menu-left:before { content: "\e257"; }
+.glyphicon-menu-right:before { content: "\e258"; }
+.glyphicon-menu-down:before { content: "\e259"; }
+.glyphicon-search:before { content: "\e003"; }
+.glyphicon-heart-empty:before { content: "\e143"; }
+.glyphicon-arrow-up:before { content: "\e093"; margin-right: 1px; }
+.glyphicon-remove:before { content: "\e014"; }

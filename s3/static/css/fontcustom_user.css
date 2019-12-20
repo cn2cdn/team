@@ -1,0 +1,93 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_ee9c73582c181f7663b99bc9bc1ef5ee.eot");
+  src: url("./fontcustom_ee9c73582c181f7663b99bc9bc1ef5ee.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_ee9c73582c181f7663b99bc9bc1ef5ee.woff") format("woff"),
+       url("./fontcustom_ee9c73582c181f7663b99bc9bc1ef5ee.ttf") format("truetype"),
+       url("./fontcustom_ee9c73582c181f7663b99bc9bc1ef5ee.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_ee9c73582c181f7663b99bc9bc1ef5ee.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-add:before,
+.icon-arrowdown:before,
+.icon-arrowup:before,
+.icon-browser:before,
+.icon-cancel:before,
+.icon-ckLogo:before,
+.icon-fb-icon:before,
+.icon-full-like:before,
+.icon-fullscreen-enter:before,
+.icon-fullscreen-exit:before,
+.icon-gotop:before,
+.icon-javLogo:before,
+.icon-likes:before,
+.icon-next:before,
+.icon-pause:before,
+.icon-play:before,
+.icon-prev:before,
+.icon-searchicon:before,
+.icon-show_left:before,
+.icon-show_right:before,
+.icon-switch_grid:before,
+.icon-switch_list:before,
+.icon-views:before,
+.icon-volume-high:before,
+.icon-volume-low:before,
+.icon-volume-mid:before,
+.icon-volume-mute:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-add:before { content: "\f100"; }
+.icon-arrowdown:before { content: "\f101"; }
+.icon-arrowup:before { content: "\f102"; }
+.icon-browser:before { content: "\f11a"; }
+.icon-cancel:before { content: "\f119"; }
+.icon-ckLogo:before { content: "\f103"; }
+.icon-fb-icon:before { content: "\f104"; }
+.icon-full-like:before { content: "\f105"; }
+.icon-fullscreen-enter:before { content: "\f106"; }
+.icon-fullscreen-exit:before { content: "\f107"; }
+.icon-gotop:before { content: "\f108"; }
+.icon-javLogo:before { content: "\f109"; }
+.icon-likes:before { content: "\f10a"; }
+.icon-next:before { content: "\f10b"; }
+.icon-pause:before { content: "\f10c"; }
+.icon-play:before { content: "\f10d"; }
+.icon-prev:before { content: "\f10e"; }
+.icon-searchicon:before { content: "\f10f"; }
+.icon-show_left:before { content: "\f110"; }
+.icon-show_right:before { content: "\f111"; }
+.icon-switch_grid:before { content: "\f112"; }
+.icon-switch_list:before { content: "\f113"; }
+.icon-views:before { content: "\f114"; }
+.icon-volume-high:before { content: "\f115"; }
+.icon-volume-low:before { content: "\f116"; }
+.icon-volume-mid:before { content: "\f117"; }
+.icon-volume-mute:before { content: "\f118"; }
